@@ -4,25 +4,6 @@ This repository contains the Fetch Data Analyst Take-Home Assessment. The projec
 
 ---
 
-## **Project Structure**
-/fetch-data-analysis │-- /data
-│ ├── /cleaned
-│ │ ├── cleaned_users.csv
-│ │ ├── cleaned_transactions.csv
-│ │ ├── cleaned_products.csv
-│ ├── /raw
-│ │ ├── raw_users.csv
-│ │ ├── raw_transactions.csv
-│ │ ├── raw_products.csv
-│ │-- /reports
-│ ├── Fetch_Insights_Report.pdf
-│ │-- /visualizations
-│ ├── Fetch_PowerBI_Dashboard.pbix
-│ │-- /scripts
-│ ├── data_cleaning.py
-│ │-- /sql_queries
-│ ├── business_questions.sql
-│ │-- README.md
 
 ## Contents
 
