@@ -1,0 +1,32 @@
+This document contains SQL queries to answer the open-ended questions from the Fetch Data Analyst take-home assessment. 
+
+1. Who Are Fetch’s Power Users?
+Identify Fetch's power users based on their purchasing behavior. A power user is defined as someone who belongs to the top 10% of total spenders.
+
+Assumptions
+The users_spend table contains user data along with their total spend (TOTAL_SPEND) and total quantity (TOTAL_QUANTITY).
+Power users are those whose total spend falls within the top 10% of all users.
+Spending distribution follows a continuous trend, and the threshold for power users is determined using the 90th percentile.
+
+2. Which Is the Leading Brand in the Dips & Salsa Category?
+
+Determine the leading brand in the "Dips & Salsa" category based on total sales and the number of items sold.
+
+Assumptions
+The transactions table contains purchase records linked to product details through the barcode field.
+The products table categorizes products using the category_2 column, where "Dips & Salsa" is a valid category.
+The leading brand is defined as the one with the highest total sales (FINAL_SALE). In case of a tie, the brand with the highest quantity (FINAL_QUANTITY) sold will be chosen.
+
+3. At What Percent Has Fetch Grown Year Over Year?
+Calculate Fetch's year-over-year (YoY) growth percentage based on total sales in each year.
+
+Assumptions
+The transactions table contains purchase records with a purchase_date column in YYYY-MM-DD format.
+
+Growth is calculated using the formula:
+
+(current year’s sales − previous year’s sales/ previous year’s sales) × 100
+
+If sales data for the previous year is unavailable, growth should return NULL.
+
+
