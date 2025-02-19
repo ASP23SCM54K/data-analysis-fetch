@@ -18,7 +18,7 @@ This repository contains the Fetch Data Analyst Take-Home Assessment. The projec
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/fetch-data-analysis.git
+   git clone https://github.com/ASP23SCM54K/data-analysis-fetch
 
 2. Open the Power BI file to explore visualizations.
 
