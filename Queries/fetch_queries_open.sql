@@ -1,5 +1,5 @@
-Open-Ended Question 1:
-"Who are Fetch’s power users?"
+#Open-Ended Question 1:
+# "Who are Fetch’s power users?"
 
 WITH spending_threshold AS (
     SELECT 
